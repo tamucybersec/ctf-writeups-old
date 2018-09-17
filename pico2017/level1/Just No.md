@@ -19,7 +19,7 @@ auth file it looks at instead...?
 
 
 ### **Step 1: analyze 'justno.c' using xxd or hexdump**
-![justNO1](/home/bryce/Pictures/justNO1.png)
+![justNO1](../.picopics/justNO1.png)
 
 command I used here: `hexdump -C justno.c | less`
 
@@ -44,7 +44,7 @@ cd /tmp/yoyo123/problems/579fe8ee083cd54f55718c1324687c74
 echo yespls > auth
 /problems/579fe8ee083cd54f55718c1324687c74/justno
 ```
-![justNO2](/home/bryce/Pictures/justNO2.png)
+![justNO2](../.picopics/justNO2.png)
 
 Awesome, flag acquired.
 
