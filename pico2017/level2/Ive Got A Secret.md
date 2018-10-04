@@ -1,7 +1,8 @@
 # **Ive Got A Secret - 75 pts**
 
 ```
-Hopefully you can find the right format for my secret! Source. Connect on shell2017.picoctf.com:5320.
+Hopefully you can find the right format for my secret! 
+Source. Connect on shell2017.picoctf.com:5320.
 ```
 If you get stuck on this problem, just read the hint:
 

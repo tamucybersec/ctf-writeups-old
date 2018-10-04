@@ -1,7 +1,9 @@
 # **VR Gear Console - 90 pts**
 
 ```
-Here's the VR gear admin console. See if you can figure out a way to log in. The problem is found here: /problems/b7d87de6335e37e49c9ea05875fd2db7
+Here's the VR gear admin console. See if you can figure 
+out a way to log in. The problem is found here: 
+/problems/b7d87de6335e37e49c9ea05875fd2db7
 ```
 
 Change into the directory, and let's try to look at what's going on Here

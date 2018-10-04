@@ -1,9 +1,12 @@
 # **SoRandom - 75 pts**
 
 ```
-We found sorandom.py running at shell2017.picoctf.com:19789. It seems to be outputting the flag but randomizing all the characters first. Is there anyway to get back the original flag?
+We found sorandom.py running at shell2017.picoctf.com:19789. 
+It seems to be outputting the flag but randomizing all the 
+characters first. Is there anyway to get back the original flag?
 
-Update (text only) 16:16 EST 1 Apr Running python 2 (same version as on the server)
+Update (text only) 16:16 EST 1 Apr Running python 2 
+(same version as on the server)
 ```
 
 So we're given a "randomized" flag and a python script that derived this output. How can we "unrandomize" the output to find the input?

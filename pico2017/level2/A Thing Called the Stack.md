@@ -1,7 +1,13 @@
 # **A Thing Called the Stack - 60 pts**
 
 ```
-A friend was stacking dinner plates, and handed you this, saying something about a "stack". Can you find the difference between the value of esp at the end of the code, and the location of the saved return address? Assume a 32 bit system. Submit the answer as a hexidecimal number, with no extraneous 0s. For example, the decimal number 2015 would be submitted as 0x7df, not 0x000007df
+A friend was stacking dinner plates, and handed you this, 
+saying something about a "stack". Can you find the difference 
+between the value of esp at the end of the code, and the 
+location of the saved return address? Assume a 32 bit system.
+Submit the answer as a hexidecimal number, with no extraneous 
+0s. For example, the decimal number 2015 would be submitted 
+as 0x7df, not 0x000007df
 ```
 
 Here they give us assembly code. If you are unfamiliar with assembly and how it works, I highly recommend watching [this](https://www.youtube.com/watch?v=75gBFiFtAb8) video for a very basic introduction to assembly and how it works. A quick note: the video goes over x86 assembly, but not AT&T syntax, which is used here.

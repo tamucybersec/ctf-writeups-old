@@ -1,7 +1,12 @@
 # **Programmers Assemble - 75 pts**
 
 ```
-You found a text file with some really low level code. Some value at the beginning has been X'ed out. Can you figure out what should be there, to make main return the value 0x1? Submit the answer as a hexidecimal number, with no extraneous 0s. For example, the decimal number 2015 would be submitted as 0x7df, not 0x000007df
+You found a text file with some really low level code.
+Some value at the beginning has been X'ed out. Can you 
+figure out what should be there, to make main return 
+the value 0x1? Submit the answer as a hexidecimal number,
+with no extraneous 0s. For example, the decimal number 2015
+would be submitted as 0x7df, not 0x000007df
 ```
 
 We are given another piece of assembly code, but this time with multiple functions and using Intel syntax instead of AT&T. We are trying to find the value at the beginning, in the first line of main. Let's try to take the same, methodical approach as last time.
