@@ -1,7 +1,10 @@
 # **LeakedHashes - 90 pts**
 
 ```
-Someone got hacked! Check out some service's password hashes that were leaked at hashdump.txt! Do you think they chose strong passwords? We should check... The service is running at shell2017.picoctf.com:3815!
+Someone got hacked! Check out some service's password hashes 
+that were leaked at hashdump.txt! Do you think they chose 
+strong passwords? We should check... The service is running 
+at shell2017.picoctf.com:3815!
 ```
 
 So we're given a text file full of hashes and the corresponding usernames to thsoe hashes... what's next?
