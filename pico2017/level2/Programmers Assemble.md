@@ -30,26 +30,27 @@ good:
 end:
     ret
 ```
-So what's going on here?
+So what's going on here? We have to look backwards.
 
-**main:**
-  *assign %eax to value $XXXXXXX
-  assign %ebx to value 0
-  assign %ecx to value 8*
-**loop:**
-  *zf = bitwise AND of eax,eax
-  if zf: goto fin
-  %ecx = %ecx + %ebx
-  %eax = %eax - 1
-  goto loop*
-**fin:**
-  *val = %ebx == $0xdc98
-  if val=1: goto good
-  %eax = 0
-  goto end*
-**good:**
-  *%eax = 1*
-**end:**
-  *return %eax*
+To have a return value of `0x1` we need to get to the *good* subroutine, and the only way there is through `fin`
 
-So, let's anaylze this program from end to beginning. To end, zf=1, which means %eax=1 from
+At that point, `%ebx` must equal `0xdc98`. To get there, we look at `loop`, which calls `fin` when `%eax` is 0.
+
+if `%eax` != 0,
+#### %ebx += %ecx
+#### %eax -= 1
+
+So `%ecx` is being added to `%ebx` `%eax` times! And in `main`, `%ebx` and `%ecx` are `0x8`, so we can form a general equation:
+
+#### `%ebx = 0x8 * %eax`
+
+For us to return 1, `%ebx` is equal to `0xdc98`, so this simplifies to:
+
+#### `0xdc98 = 0x8 * %eax`
+and therefore,
+`%eax` = **0x1B93**
+
+Input above, and shabang.
+
+
+flag{0x1B93}
